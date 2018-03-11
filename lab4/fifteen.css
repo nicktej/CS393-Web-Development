@@ -1,0 +1,27 @@
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	margin: auto;
+	text-align: center;
+}
+
+#puzzlearea {
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	position: relative;
+}
+
+.square {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	font-size: 40pt;
+	color: white;
+	transition: all 0.2s ease;
+}
+
+/*.square: hover{
+	border-color: red;
+	color: red;
+}*/

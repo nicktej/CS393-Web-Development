@@ -1,0 +1,38 @@
+h1, h3 {
+	text-align: center;
+	font-family: Helvetica,  Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40pt;
+	color: purple;
+}
+
+h3 {
+	text-align: left;
+	font-size: 20pt;
+	color: green;
+}
+
+h5 {
+	text-align: left;
+	font-size: 15pt;
+	color: brown;
+}
+
+h6 {
+	text-align: left;
+	font-size: 5pt;
+	color: red;
+}
+
+li {
+	text-align: left;
+	font-size: 15pt;
+	color: blue;
+}
+
+body {
+	background-image: url("http://www.themesltd.com/backgrounds/kawaii/tasty_kawaii_slice_of_pie.png");
+}

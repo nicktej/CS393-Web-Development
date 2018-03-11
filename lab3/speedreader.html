@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Speed Reader</title>
+		<meta charset="utf-8" />
+		<link href="speedreader.css" type="text/css" rel="stylesheet" />
+		<script src="speedreader.js"></script>
+	</head>
+	<body>
+		<h1>SpeedReader</h1>
+
+		<div id="center">
+
+		</div>
+
+		<div class="mid">
+
+		<div class="controls">
+		<label>Play Controls:</label><br>
+			<fieldset id="controls"> 
+			<button id="st" onclick="start()">Start</button>
+			<button onclick="stop()">Stop</button>	
+			</fieldset>
+		</div>
+
+		<div class="speed">
+		<label>Speed:</label><br>
+				<fieldset>
+  				<select name="speed" id="speed" onchange="speed1(this)">
+   					 <option value="500">50 WPM</option>
+  					 <option value="200">300 WPM</option>
+   					 <option value="171">350 WPM</option>
+    				 <option value="150">400 WPM</option>
+    				 <option value="133">450 WPM</option>
+    				 <option value="120">500 WPM</option>
+  				</select>
+				</fieldset>
+		</div>
+
+		<div class="size">
+		<label>Size:</label><br>
+				<fieldset id="size">
+					<input type="radio" name="Big" value="36" onclick="size1(this)"> Medium
+					<input type="radio" name="Big" value="48" onclick="size1(this)"> Big
+					<input type="radio" name="Big" value="60" onclick="size1(this)"> Bigger
+			</fieldset><br>
+		</div>
+		</div>
+
+		<div class="text">
+		<br><label>Input Text</label>
+			<fieldset id="text">
+				<textarea type="text" name="text" rows="10" cols="80" id="myinput"></textarea>
+			</fieldset>
+		</div>
+
+		<div class="validators">
+			<a href="https://validator.w3.org/"><img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Valid HTML5"/></a>
+			<a href="https://jigsaw.w3.org/css-validator/"><img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Valid CSS"/></a>
+			<a href="http://www.jslint.com/"><img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Valid JS"/></a>
+			</div>
+	</body>
+</html>

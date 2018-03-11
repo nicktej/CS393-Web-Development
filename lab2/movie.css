@@ -1,0 +1,155 @@
+body {
+	background-image: url(https://webster.cs.washington.edu/images/moviebg.png);
+	font-size: 10pt;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+.banner {
+	background-image: url(https://webster.cs.washington.edu/images/rancidbannerbg.png);
+	background-repeat: repeat-x;
+	height: 50px;
+}
+
+.banner-img {
+	margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	text-shadow: 3px 3px #999999;
+
+}
+
+.overall {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px grey;
+	background-color: #EEEEEE;
+}
+
+.generaloverview {
+	border-top-right-radius: 20px;
+	overflow: hidden;
+}
+
+.rightside {
+	width: 250px;
+	float: right;
+	margin-left: auto;
+	background-color: #A2B964;
+	font-size: 10pt;
+	border-top-right-radius: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+dt {
+	font-weight: bold;
+	padding-top: 10pt;	
+}
+
+.rightside > dl {
+	padding: 10pt;
+}
+
+li {
+	list-style-type: none;
+}
+
+.leftside {
+	width: 550px;
+	float: left;
+	margin-right: auto;
+	background-color: #EEEEEE;
+	border-top-left-radius: 20px;
+}
+
+.three{
+	font-size: 48pt;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	position: absolute;
+	top: 145px;
+	left: 380px;
+}
+
+.smallerbanner {
+	background-image: url(https://webster.cs.washington.edu/images/rottenlargebg.png);
+	background-repeat: repeat-x;
+	height: 83px;
+	border-top-left-radius: 20px;
+	overflow: hidden;
+
+}
+
+.column1 {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 47%;
+	float: left;
+	background-color: #EEEEEE;
+	border-top-left-radius: 20px;
+}
+
+
+.column2 {
+	margin-right: 2%;
+	margin-left: auto;
+	width: 47%;
+	float: right;
+	background-color: #EEEEEE;
+	border-top-left-radius: 20px;
+}
+
+.review {
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	overflow: hidden;
+	font-size: 10pt;
+	font-family: Georgia, "Times New Roman", sans-serif;
+	padding: 8px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.review > img {
+	padding-right: 5px;
+	float: left;
+}
+
+em { 
+	font-style: italic;
+ }
+
+.critic {
+	padding-bottom: 10pt;
+}
+
+.critic > img {
+	padding-right: 5px;
+	float: left;
+}
+
+#page {
+	background-color: #A2B964;
+	padding: 5px;
+	margin-left: auto;
+	text-align: center;
+	clear: right;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.validators {
+	float: right;
+}
+
